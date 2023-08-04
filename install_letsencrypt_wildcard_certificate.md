@@ -7,8 +7,6 @@ sudo certbot certonly --manual --preferred-challenges dns
 sudo certbot certonly --manual --preferred-challenges dns --test-cert
 ```
 
-when asked for domain name:* ```domain.tld *.domain.tld```
-
 *create required dns txt record (_acme-challenge.domain.tld) with provided value*
 
 *to check dns record:*
