@@ -1,6 +1,8 @@
 # Ftp Server
 
-`sudo apt update`
+`
+sudo apt update
+`
 
 `sudo apt install vsftpd`
 
