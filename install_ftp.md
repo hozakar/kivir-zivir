@@ -1,9 +1,17 @@
 # Ftp Server
 
-    sudo apt update
-    sudo apt install vsftpd
-    sudo systemctl start vsftpd
-    sudo systemctl enable vsftpd
+```
+sudo apt update
+```
+```
+sudo apt install vsftpd
+```
+```
+sudo systemctl start vsftpd
+```
+```
+sudo systemctl enable vsftpd
+```
 
 ---
 
