@@ -48,7 +48,9 @@ GRANT ALL ON new_db.* TO 'new_user'@'%';
 
 *Exit from MySQL cli*
 
-```exit```
+```
+exit
+```
 
 ---
 
