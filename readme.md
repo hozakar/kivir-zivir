@@ -1,4 +1,4 @@
-**Once in a blue moon stuff, i hate to rediscover every single time**
+**Once in a blue moon stuff I hate to rediscover every single time**
 
 * [Install LEMP](https://github.com/hozakar/kivir-zivir/blob/main/install_lemp.md)
 * [Simple Nginx Config Example](https://github.com/hozakar/kivir-zivir/blob/main/nginx_config_simple.md)
