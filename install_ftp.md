@@ -16,7 +16,6 @@ sudo systemctl enable vsftpd
 ---
 
 *Backup conf file (better safe than sorry)*
-
 ```
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf_default
 ```
@@ -24,15 +23,19 @@ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf_default
  ---
  
 *Open ports for ftp traffic*
-
-   sudo ufw allow 20/tcp
-   sudo ufw allow 21/tcp
+```
+sudo ufw allow 20/tcp
+```
+```
+sudo ufw allow 21/tcp
+```
 
 ---
 
 *Configuration*
-
-   sudo nano /etc/vsftpd.conf
+```
+sudo nano /etc/vsftpd.conf
+```
 
 ---
 
@@ -49,13 +52,16 @@ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf_default
 `userlist_deny=NO`
 
 *For user list*
-
-   sudo nano /etc/vsftpd.userlist
+```
+sudo nano /etc/vsftpd.userlist
+```
 
 ---
 
 *If you want to enable encryption*
-   sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
+```
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
+```
 
 *In conf file*
 `rsa_cert_file=/etc/ssl/private/vsftpd.pem`
@@ -69,4 +75,6 @@ sudo cp /etc/vsftpd.conf /etc/vsftpd.conf_default
 
 ---
 
-   sudo systemctl restart vsftpd.service
+```
+sudo systemctl restart vsftpd.service
+```
