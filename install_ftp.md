@@ -9,7 +9,9 @@
 
 *Backup conf file (better safe than sorry)*
 
+`
    sudo cp /etc/vsftpd.conf  /etc/vsftpd.conf_default
+`
 
  ---
  
