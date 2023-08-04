@@ -60,7 +60,7 @@ sudo nano /etc/vsftpd.userlist
 
 ---
 
-*Encryption is good... Encryption is our frend...*
+*Encryption is good... Encryption is our friend...*
 ```
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.pem -out /etc/ssl/private/vsftpd.pem
 ```
