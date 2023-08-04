@@ -5,3 +5,4 @@
 * [Install PHP Modules](https://github.com/hozakar/kivir-zivir/blob/main/install_php_modules.md)
 * [Install Letsencrypt Wildcard Certificate](https://github.com/hozakar/kivir-zivir/blob/main/install_letsencrypt_wildcard_certificate.md)
 * [Install FTP](https://github.com/hozakar/kivir-zivir/blob/main/install_ftp.md)
+* [Install MSSql]([https://github.com/hozakar/kivir-zivir/blob/main/install_ftp.md](https://github.com/hozakar/kivir-zivir/blob/main/install_mssql_server.md)https://github.com/hozakar/kivir-zivir/blob/main/install_mssql_server.md)
