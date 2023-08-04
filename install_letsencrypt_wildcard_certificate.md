@@ -24,7 +24,7 @@ to check certificate file:
 sudo openssl x509 -in /address/for/certificate/file/fullchain.pem -text -noout
 ```
 
-on nginx config add:
+on nginx config, add:
 ```
 ssl_certificate /address/for/certificate/file/fullchain.pem;
 ssl_certificate_key /address/for/certificate/file/privkey.pem;
