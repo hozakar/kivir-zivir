@@ -1,8 +1,8 @@
-*Remember:*
+*Don't forget to:*
 * Add ssh key to your server to be able to ssh into
-* Ssh variable(s) need to be type of file
-* Add a blank line at the end for ssh variable
-* Make ci branches protected, use protected variables
+* Select ssh variable(s) type as file
+* Add a blank line at the end for ssh variable(s)
+* Make ci branches protected and use protected variables
 
 ---
 
