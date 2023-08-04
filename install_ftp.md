@@ -8,17 +8,20 @@
 ---
 
 *Backup conf file (better safe than sorry)*
+
    sudo cp /etc/vsftpd.conf  /etc/vsftpd.conf_default
 
  ---
  
 *Open ports for ftp traffic*
+
    sudo ufw allow 20/tcp
    sudo ufw allow 21/tcp
 
 ---
 
 *Configuration*
+
    sudo nano /etc/vsftpd.conf
 
 ---
@@ -36,6 +39,7 @@
 `userlist_deny=NO`
 
 *For user list*
+
    sudo nano /etc/vsftpd.userlist
 
 ---
