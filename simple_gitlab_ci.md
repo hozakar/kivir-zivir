@@ -27,7 +27,7 @@ deploy:
         - source .${CI_COMMIT_REF_NAME}.env
         - chmod 400 $VARIABLE_FOR_SSH
     script:
-        - ssh -o StrictHostKeyChecking=no -i $VARIABLE_FOR_SSH $VARIABLE_SERVER_FOR_ROOT_USERNAME@$VARIABLE_FOR_SERVER_IP "
+        - ssh -o StrictHostKeyChecking=no -i $VARIABLE_FOR_SSH $VARIABLE_FOR_SERVER_ROOT_USERNAME@$VARIABLE_FOR_SERVER_IP "
             cd $VARIABLE_FOR_DIRECTORY &&
             sudo git config --global --add safe.directory $VARIABLE_FOR_DIRECTORY &&
             usdo git stash -k -u &&
