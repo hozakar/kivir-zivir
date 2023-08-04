@@ -1,10 +1,12 @@
 *Remember:*
-* Don't forget to add a key to your server to be able to ssh into
-* SSH variable(s) need to be type of file
-* Don't forget to add a blank line at the end for ssh variable
+* Add ssh key to your server to be able to ssh into
+* Ssh variable(s) need to be type of file
+* Add a blank line at the end for ssh variable
+* Make ci branches protected, use protected variables
 
+---
 
-*.env files for branches that use ci*
+***.branchname.env** files for branches that use ci*
 ```
 export VARIABLE_FOR__SSH="$BRANCHNAME_VARIABLE_FOR_SSH"
 export VARIABLE_SERVER_FOR_ROOT_USERNAME="$BRANCHNAME_VARIABLE_FOR_SERVER_ROOT_USERNAME"
@@ -12,7 +14,9 @@ export VARIABLE_SERVER_FOR_IP="$BRANCHNAME_VARIABLE_FOR_SERVER_IP"
 export VARIABLE_FOR_DIRECTORY="$BRANCHNAME_VARIABLE_FOR_DIRECTORY"
 ```
 
-*.gitlab-ci.yaml*
+---
+
+***.gitlab-ci.yaml***
 ```
 stages:
     - deploy
