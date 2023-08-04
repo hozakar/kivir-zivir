@@ -59,7 +59,7 @@ exit
 sudo apt install php8.1-fpm php-mysql
 ```
 
-*Install php modules...*
+*[Install PHP Modules](https://github.com/hozakar/kivir-zivir/blob/main/install_php_modules.md)*
 
 ---
 
@@ -78,7 +78,7 @@ sudo adduser username
 sudo chown -R username:username /var/www/domain.tld
 ```
 
-*Customize nginx configuration (example)*
+*Customize nginx configuration ( [Simple Nginx Config Example](https://github.com/hozakar/kivir-zivir/blob/main/nginx_config_simple.md) )*
 ```
 sudo nano /etc/nginx/sites-available/domain.tld
 ```
