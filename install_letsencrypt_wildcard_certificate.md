@@ -17,7 +17,7 @@ dig -t txt +short _acme-challenge.domain.tld
 ```
 (or with mxtoolbox or whatever)
 
-when successful continue (usually takes no more then 5 minutes). Copy provided certificate file addresses to somewhere, they will be needed
+when successful (usually takes no more then 5 minutes), continue. Copy provided certificate file addresses to somewhere, they will be needed
 
 to check certificate file:
 ```
