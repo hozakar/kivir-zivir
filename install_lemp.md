@@ -54,17 +54,17 @@ exit
 
 *If remote access to mysql is required*
 
-To allow access from a specific ip:
+*To allow access from a specific ip:*
 ```
 sudo ufw allow from remote_ip to any port 3306
 ```
 
-To allow access from anywhere:
+*To allow access from anywhere:*
 ```
 sudo ufw allow 3306
 ```
 
-In MySQL configuration (usually */etc/mysql/mysql.cnf* or */etc/mysql/mysql.conf.d/mysqld.cnf*) find the line below and comment it out:
+*In MySQL configuration (usually **/etc/mysql/mysql.cnf** or **/etc/mysql/mysql.conf.d/mysqld.cnf**) find the line below and comment it out:*
 ```
 bind-address = 127.0.0.1
 ```
